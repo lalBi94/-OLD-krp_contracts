@@ -1,0 +1,120 @@
+* {
+    margin: 0 auto;
+    margin-top: 2%;
+    font-family: "Bradley Hand", monospace;
+    color: rgb(56, 56, 56);
+}
+
+body {
+    background: transparent;
+}
+
+#container{
+    position: relative;
+}
+
+.card{
+    position: absolute;
+    border: 1px solid lightgray;
+    background-color: white;
+    width: 450px;
+    height: 700px;
+    left: 0;
+    right: 0;
+    padding: 1%;
+}
+
+#card1{
+    transform: rotate(-2deg);
+}
+
+#card2{
+    transform: rotate(3deg);
+}
+
+.title {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 4%;
+}
+
+hr.solid {
+    border-top: 1px solid #bbb;
+}
+
+.text {
+    position: relative;
+    font-size: 1rem;
+}
+
+.input {
+    font-weight: bold;
+    color: black;
+}
+
+.signatures {
+    display: flex;
+    margin-top:42%;
+}
+
+.vendorclient {
+    display: flex;
+}
+
+
+.sign-player1, .sign-player2 {
+    font-size: 1.8em;
+}
+
+.mouahaha {
+    position: relative;
+}
+
+.s1, .s2 {
+    position: absolute;
+    width: 160px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.s1 {
+    margin-left: 6%;
+}
+
+.s2 {
+    margin-left: 57%;
+}
+
+.btn {
+    position: relative;
+    margin-top: 6%;
+    text-align: center;
+}
+
+.thebtn {
+    width: 190px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background: green;
+    font-size: 1em;
+}
+
+.thebtn:hover {
+    background: rgb(57, 107, 57);
+}
+
+.thebtn2 {
+    width: 190px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background: red ;
+    font-size: 1em;
+}
+
+.thebtn2:hover {
+    background: rgb(255, 66, 66);
+}
